@@ -1,11 +1,13 @@
 # Uncle James | Personal Ride Booking Website
 
 ### Screenshots
-<img width="1694" alt="Screenshot 2025-05-04 at 19 39 57" src="https://github.com/user-attachments/assets/22adfd1d-9dcb-4e66-8298-3df4c6c5c2c4" />
-<img width="1694" alt="Screenshot 2025-05-04 at 19 40 16" src="https://github.com/user-attachments/assets/36ce52a1-7db8-4e06-88ba-faf17e188510" />
-<img width="1694" alt="Screenshot 2025-05-04 at 19 40 23" src="https://github.com/user-attachments/assets/5e2f50a8-4585-4d01-b82a-fe73eb8c5fd8" />
-<img width="1680" alt="Screenshot 2025-05-04 at 19 40 45" src="https://github.com/user-attachments/assets/42a46fc6-ffc0-433f-8291-1138b6fbc29a" />
 
+<div style="display: flex; gap: 10px;">
+  <img src="https://github.com/user-attachments/assets/22adfd1d-9dcb-4e66-8298-3df4c6c5c2c4" width="400" />
+  <img src="https://github.com/user-attachments/assets/36ce52a1-7db8-4e06-88ba-faf17e188510" width="400" />
+  <img src="https://github.com/user-attachments/assets/5e2f50a8-4585-4d01-b82a-fe73eb8c5fd8" width="400" />
+  <img src="https://github.com/user-attachments/assets/42a46fc6-ffc0-433f-8291-1138b6fbc29a" width="400" />
+</div>
 
 Welcome to **Uncle James**, a modern, personal ride booking website designed for a reliable and friendly private driver experience.
 
