@@ -42,14 +42,14 @@ This website introduces **James**, a professional driver offering personalized t
 ## Project Structure
 
 ```
-.
-âââ index.html
-âââ booking.html
-âââ contact.html
-âââ style.css
-âââ script.js
-âââ pics/
-    âââ wah.jpg
+.--
+ |-index.html
+ |-booking.html
+|-contact.html
+ |-style.css
+ |-script.js
+  |---pics/
+     wah.jpg
 ```
 
 ## Getting Started
