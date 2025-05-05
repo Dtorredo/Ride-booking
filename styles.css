@@ -6,56 +6,25 @@ body {
     max-width: 900px;
 }
 
-@media (min-width: 576px) {
-    .uf-contact-form-01 {
-        min-height: 100vh;
-        align-content: center;
-    }
-}
-
-.uf-img-contact-form-01 {
-    max-width: 100%;
-    animation: uf-animation 4s ease-in-out 1s infinite alternate;
-    position: relative;
-}
-
-.uf-ct-01-text-primary {
-    color: #5b9eff; 
-}
-
-.uf-ct-01-btn-primary {
-    background-color: #5b9eff;
-    color: #fff;
-}
-
-.uf-ct-01-btn-primary:hover {
-    background-color: #3a88e0; 
-    color: #fff;
-}
-
-@keyframes uf-animation {
-    0%   {top: 0px;}
-    50%  {top: -30px;}
-    100% {top: 0px;}
-}
 
 .form-control:focus {
     border-color: #a6ceff;
     box-shadow: 0 0 0 .25rem rgba(91, 158, 255, 0.25);
 }
 
-.navbar{
+.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
     min-height: 50px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-
+    background: linear-gradient(to right, #a8cfff, #cce5ff); 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
 }
 
-.navbar .logo{
+.navbar .logo {
     font-weight: bold;
+    color: #5b9eff; 
 }
 
 .nav-links {
@@ -65,13 +34,12 @@ body {
     padding: 0;
 }
 
-.nav-links li{
+.nav-links li {
     margin-left: 20px;
     margin-right: 50px;
-    
 }
 
-.nav-links a{
+.nav-links a {
     text-decoration: none;
     font-size: 13px;
     margin-left: 4px;
@@ -87,16 +55,16 @@ body {
     height: 2px;
     bottom: -4px;
     left: 0;
-    background-color: #00bcd4;
+    background-color: #5b9eff; 
     transition: width 0.3s;
-  }
-  
-  .nav-links a:hover::after {
-    width: 100%;
-  }
+}
 
-.nav-links a:hover{
-color: #00bcd4;
+.nav-links a:hover::after {
+    width: 100%;
+}
+
+.nav-links a:hover {
+    color: #5b9eff;
 }
 
 .footer {
@@ -168,6 +136,40 @@ color: #00bcd4;
     font-size: 13px;
     color: #666;
   }
+
+
+@media (min-width: 576px) {
+    .uf-contact-form-01 {
+        min-height: 100vh;
+        align-content: center;
+    }
+}
+
+.uf-img-contact-form-01 {
+    max-width: 100%;
+    animation: uf-animation 4s ease-in-out 1s infinite alternate;
+    position: relative;
+}
+
+.uf-ct-01-text-primary {
+    color: #5b9eff; 
+}
+
+.uf-ct-01-btn-primary {
+    background-color: #5b9eff;
+    color: #fff;
+}
+
+.uf-ct-01-btn-primary:hover {
+    background-color: #3a88e0; 
+    color: #fff;
+}
+
+@keyframes uf-animation {
+    0%   {top: 0px;}
+    50%  {top: -30px;}
+    100% {top: 0px;}
+}
 
 @media (max-width: 575px) {
     .navbar {
