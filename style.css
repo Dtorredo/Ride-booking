@@ -169,6 +169,27 @@ footer{
     max-width: 400px;
   }
   
+  .datetime-group {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .input-box {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+  
+  input[type="date"],
+  input[type="time"],
+  input[type="text"] {
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+  }
+  
+  
   .form-group input {
     padding: 1rem;
     border: 1px solid #ccc;
@@ -189,9 +210,11 @@ footer{
   }
   
   .cta {
+    margin-top: 20px;
     display: flex;
     gap: 1rem;
     align-items: center;
+    margin-left: 188px;    
   }
   
   .see-prices {
@@ -325,6 +348,7 @@ footer{
     font-size: 13px;
     color: #666;
   }
+  
   
   @media (max-width: 768px) {
     .navbar {

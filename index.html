@@ -26,10 +26,22 @@
         <div class="form-group">
           <input type="text" placeholder="Pickup location" />
           <input type="text" placeholder="Dropoff location" />
-          <div class="options">
-            <button class="date">📅 Today</button>
-            <button class="time">⏰ Now</button>
+        
+          <div class="datetime-group">
+            <div class="input-box">
+              <label for="pickup-date">📅 Pickup Date</label>
+              <input type="date" id="pickup-date" name="pickup-date" />
+            </div>
+        
+            <div class="input-box">
+              <label for="pickup-time">⏰ Pickup Time</label>
+              <input type="time" id="pickup-time" name="pickup-time" />
+            </div>
           </div>
+        </div>
+        
+        
+        
           <div class="cta">
             <a href="#">Recent activity?</a>
             <button class="see-prices">Pricing</button>
